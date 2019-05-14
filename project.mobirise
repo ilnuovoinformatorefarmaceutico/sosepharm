@@ -1,0 +1,852 @@
+{
+  "settings": {
+    "name": "sosepharm",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#000000",
+        "buttonsColor": "#ffffff",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Roboto",
+        "subtitleFont": "Roboto",
+        "textFont": "Roboto",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#e2e9e9"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "versionFirst": "4.9.5",
+    "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "uniqCompNum": 20,
+    "versionPublish": "4.9.5"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.85",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#34495e",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sosepharm-logo-345x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-f",
+          "_customHTML": "<section class=\"menu1\" data-rv-view=\"2167\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/sosepharm-logo-345x128.jpg\" alt=\"Mobirise\"></a>\n                        <a class=\"navbar-caption\" href=\"https://mobirise.com\">MOBIRISE</a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <span class=\"hamburger-icon\"></span>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#header11-0\" code-editable-id=\"34\">HOME</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"35\">DOVE SIAMO</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"36\">CONTATTI</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <span class=\"close-icon\"></span>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);\n.hide-buttons .nav-btn {\n  display: none !important;\n}\n.navbar-caption {\n  color: #ffffff;\n}\n.navbar-toggler {\n  color: #34495e;\n}\n.close-icon::before, .close-icon::after {\n  background-color: #34495e;\n}\n.link, .dropdown-item {\n  color: #34495e;\n  font-family: 'Roboto', sans-serif;\n}\n.link {\n  font-size: 0.85rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n  font-size: 0.921rem;\n}\n.link:hover, .link:focus {\n  color: #000000;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n  background: #000000;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n  color: #34495e;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n  background: #e6e6e6;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n  background: #f7f7f7!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n  background: #ffffff;\n}\n.bg-color.transparent .link {\n  color: #34495e;\n  transition: none;\n}\n.bg-color.transparent.opened .link {\n  transition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n  color: #000000;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n  color: #000000!important;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "animText1": "ESPERIENZA",
+            "animText2": "QUALITÁ",
+            "animText3": "TECNOLOGIA",
+            "typeSpeed": "40",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img241-1-813x554.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.6"
+          },
+          "title": "SO.SE.PHARM<br>",
+          "text": "L' alto livello di tecnologie, la certificazione di qualità e la lunga esperienza in tecnologie farmaceutiche, fa di <b>SO.SE.PHARM</b> il principale punto di riferimento per le aziende &nbsp;farmaceutiche nello sviluppo di <b>FARMACI GENERICI</b> dal più alto standard qualitativo",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#content3-p\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-setting mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span>ECCELLENZA OPERATIVA</a>",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header11",
+          "_anchor": "header11-0",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "12px"
+            },
+            "P": {
+              "font-size": "22px",
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "H1": {
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "SPAN": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "16px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#eeeeee"
+          },
+          "title": "UN' AZIENDA DINAMICA E FLESSIBILE",
+          "meta": "<b>SO.SE.PHARM É IL PARTNER IDEALE NELL' INDUSTRIA FARMACEUTICA EUROPEA</b>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-p"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "rows": "2",
+            "bgItem1": "#f5f5f5",
+            "bgItem2": "#3498db",
+            "bgItem3": "#d2dde4",
+            "bgItem4": "#212121",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Our Team",
+          "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
+          "person1": "<b>SITO PRODUTTIVO</b>",
+          "person2": "<b>SVILUPPO FARMACEUTICO</b>",
+          "person3": "<b>DIPARTIMENTO DI RICERCA E SVILUPPO</b>",
+          "person4": "<b>AMBIENTE, SICUREZZA E IGIENE</b>",
+          "subtitle1": "PRODUZIONE CONTO TERZI",
+          "subtitle2": "AMPIA GAMMA DI SOLUZIONI",
+          "subtitle3": "PRODOTTI E DOSSIER GENERICI",
+          "subtitle4": "OSSERVAZIONE DELLE NORME COMPORTAMENTALI",
+          "caption1": "Lo stabilimento del gruppo So.Se.PHARM si trova ad Anagni (Provincia di Frosinone, a circa 50 Km da Roma) ed è specializzato nella manifattura e confezionamento di farmaci e dispositivi medici sterili nelle principali forme farmaceutiche.&nbsp;Al momento il sito produce come conto terzi per circa 60 aziende farmaceutiche Italiane ed internazionali.",
+          "caption2": "A disposizione per attività di conto terzismo anche servizi di sviluppo farmaceutico. Il dipartimento di sviluppo farmaceutico offre una flessibile e professionale organizzazione per attività concernenti studi pre-formulativi, sviluppo formulativo, sviluppo analitico, attività di validazione, studi di stabilità e di produzione per gli studi clinici.",
+          "caption3": "Reparto ricerca e sviluppo: oltre alle attività di produzione a contratto per aziende nazionali e multinazionali, SO.SE.PHARM vanta una ricerca e sviluppo dedicata<br>che gestisce lo sviluppo di prodotti e dossier generici<br>in formato eCTD &nbsp;e una vasta pipeline di prodotti farmaceutici in fase di sviluppo.<br>Uno dei prodotti di maggior successo sviluppato e registrato in diversi&nbsp;paesi dell'UE e al di fuori dell'Europa è il&nbsp;<b>Trometamolo Fosfomicina in bustina.</b>",
+          "caption4": "La valutazione puntuale dei rischi ed il rispetto di tutta la normativa vigente in campo ambientale, di igiene e sicurezza del lavoro, insieme al pieno coinvolgimento di tutto il personale aziendale, sono requisiti fondamentali per raggiungere livelli di eccellenza in ogni ambito.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img60-1-600x360.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img134-600x391.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img263-600x400.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img247-600x400.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "team1",
+          "_anchor": "team1-n",
+          "_styles": {
+            ".text1": {
+              "color": "#333333"
+            },
+            ".subtitle1": {
+              "color": "#000000"
+            },
+            ".text3": {
+              "text-align": "left"
+            },
+            ".title3 B": {
+              "color": "#666666"
+            },
+            ".title3": {
+              "text-align": "left"
+            },
+            ".subtitle3": {
+              "text-align": "left"
+            },
+            ".text4": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".title4": {
+              "text-align": "left"
+            },
+            ".subtitle4": {
+              "text-align": "left",
+              "color": "#eeeeee"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form1-11\" data-toolbar=\"-mbrBtnMove\">RICHIEDI INFORMAZIONI</a> ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-q",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "12px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            },
+            "H2": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showTitles": true,
+            "showText": false,
+            "showSubtitles": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/extFeatures1/images/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ebf2f2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.75
+          },
+          "title": "NUMERI AL SERVIZIO DELLA QUALITÁ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
+          "subtitle1": "CONFEZIONI/ANNO",
+          "subtitle2": "PERSONALE",
+          "subtitle3": "STRUMENTI",
+          "subtitle4": "AZIENDE CLIENTI",
+          "number1": "170000",
+          "number2": "400",
+          "number3": "270",
+          "number4": "60",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "counters2",
+          "_anchor": "counters2-s"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "LE AZIENDE CHE HANNO SCELTO SO.SE.PHARM",
+          "meta": "By <b>John Smith</b> posted July 20, 2016",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-t"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "3",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/menarini.svg-220x94.png",
+                "thumb": "@PROJECT_PATH@/assets/images/menarini.svg-220x94-220x94.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/doc-generici-logo-250x145.png",
+                "thumb": "@PROJECT_PATH@/assets/images/doc-generici-logo-250x145-250x145.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/dompe-logo-375x200.png",
+                "thumb": "@PROJECT_PATH@/assets/images/dompe-logo-375x200-375x200.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/teva-pharmaceuticals-logo-before-after-1000x416.png",
+                "thumb": "@PROJECT_PATH@/assets/images/teva-pharmaceuticals-logo-before-after-1000x416-800x333.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/stada-logo-png-transparent-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/stada-logo-png-transparent-2000x2000-800x800.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/bruno-farmaceutici-408x356.png",
+                "thumb": "@PROJECT_PATH@/assets/images/bruno-farmaceutici-408x356-408x356.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/sandoz-logo-220-01-220x180.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sandoz-logo-220-01-220x180-220x180.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/download-224x224.png",
+                "thumb": "@PROJECT_PATH@/assets/images/download-224x224-224x224.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-f"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#eae8e8"
+          },
+          "title": "GLI AMBITI TERAPEUTICI",
+          "meta": "<b>L' IMPEGNO DI SO.SE.PHARM PER LA SALUTE DEL PAZIENTE</b>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            },
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pharma-sosepharm-1280x853.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3498db",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#95a5a6",
+            "overlayOpacity": "0.6"
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "pills",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 50,
+              "color": "#fff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "protect",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "leafs",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "<b>farmaci branded OTC</b>",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"index.html#form1-11\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">SCOPRI DI PIÚ</a>",
+          "title2": "Responsive",
+          "subtitle2": "<b>FARMACI GENERICI BRANDED</b>",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"index.html#form1-11\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">SCOPRI DI PIÚ</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "<b>INTEGRATORI E MEDICAL DEVICE</b>",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"index.html#form1-11\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">SCOPRI DI PIÚ</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-w"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>&nbsp;So.Se.PHARM è una società farmaceutica dedicata alla collaborazione. L’internazionalizzazione è alla base dei progetti strategici del Gruppo. Grazie all' avvenuta ed imminente scadenza di importanti brevetti farmaceutici, So.Se.PHARM conta su un ampio margine di crescita negli anni a venire.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-y",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title DIV": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "_params": {
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e2e9e9",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "Sei un'azienda e vuoi affidarti a So.Se.Pharm?<br>Oppure hai bisogno di qualche informazione?",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "text": "<b>COMPILA IL MODULO SOTTOSTANTE&nbsp;</b>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">INVIA IL MODULO</a>",
+          "form": {
+            "action": "info@sosepharm.com",
+            "alerts": {
+              "success": "Grazie per aver compilato il modulo!\nVerrai ricontattato il prima possibile"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefono"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Messaggio"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-11"
+        },
+        {
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": false,
+            "showText": true,
+            "showButtons": false,
+            "googleMap": {
+              "address": "Via dei Castelli Romani, 22 - 00071 Pomezia (Roma), Italia ",
+              "placeId": "ChIJN2OQ90eSJRMRHidaG3a7hxk",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#eeeeee",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title1": "Via dei Castelli Romani, 22 - 00071 Pomezia (Roma), Italia&nbsp;",
+          "title2": "Tel (0039) 06.9160011<br><br>Fax (0039) 0691603462",
+          "title3": "sample@sample.us",
+          "cat1": "<br><br><br><br><br><br>INDIRIZZO",
+          "cat2": "TELEFONO",
+          "cat3": "email",
+          "text": "Marchi, nomi di prodotto e società citati nel sito sono di proprietà delle rispettive aziende.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-j",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero contacts mbr-after-navbar\" data-rv-view=\"2249\" style=\"background-color: rgb(238, 238, 238); padding-top: 0px; padding-bottom: 0px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 text-xs-left\">\n\n                    <div class=\"padding-top-40\"></div>\n                    <div>\n                        <h1>SO.SE.PHARM</h1><strong></strong>\n                      <p class=\"mbr-section-subtitle category mbr-editable-content\" code-editable-id=\"29\"><br>INDIRIZZO</p>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"30\">Via dei Castelli Romani, 22 - 00071 Pomezia (Roma), Italia&nbsp;</h1>\n\n                    </div>\n                    <div>\n\n                      <p class=\"mbr-section-subtitle category mbr-editable-content\" code-editable-id=\"31\">TELEFONO</p>\n\n                      <h1 class=\"mbr-section-title display-6 mbr-editable-content\" code-editable-id=\"32\">Tel (0039) 06.9160011<br><br>Fax (0039) 06.91603462</h1>\n\n                    </div>\n                    \n\n                    <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"33\">Marchi, nomi di prodotto e società citati nel sito sono di proprietà delle rispettive aziende.</p>\n\n                    \n                </div>\n\n                <div class=\"col-xs-12 col-md-6 padding-left-0 padding-right-0\">\n                    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJN2OQ90eSJRMRHidaG3a7hxk\" allowfullscreen=\"\"></iframe></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "color": "#333333"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Designed by Ilaria Finamore COPYRIGHT 2019 - TUTTI I DIRITTI RISERVATI",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-i"
+        }
+      ]
+    }
+  }
+}
